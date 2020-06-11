@@ -8,7 +8,8 @@
       <pages>
          <Page title="{i18n>homePageTitle}">
             <content>
-               <Panel headerText="{i18n>helloPanelTitle}"
+						<mvc:XMLView viewName="sap.ui.demo.walkthrough.view.HelloPanel"/>
+               <!-- <Panel headerText="{i18n>helloPanelTitle}"
                class="sapUiResponsiveMargin"
                width="auto">
                   <content>
@@ -25,7 +26,7 @@
 									htmlText="Hello {/recipient/name}"
                         class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
                   </content>
-               </Panel>
+               </Panel> -->
             </content>
          </Page>
       </pages>

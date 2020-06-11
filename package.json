@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "bsync": "npx browser-sync start --server \"webapp\" --directory --serveStatic \"..\" --files \"webapp/css/*.css\" --no-open",
+    "less_to_css": "lessc src/less/app.less css/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/kosaaron/fiorikk#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.7"
+    "browser-sync": "^2.26.7",
+    "lessc": "^1.0.2"
   }
 }
