@@ -15,7 +15,7 @@ sap.ui.define([], function () {
                     sResult = resourceBundle.getText("invoiceStatusC");
                     break;
 				default:
-                    sStatus = sResult;
+                         sResult = sStatus;
             }
             return sResult;
 		}
